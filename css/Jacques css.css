@@ -7,6 +7,7 @@ body{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	width:100%;
+	
 	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
 	margin:0px;
 	
@@ -46,23 +47,24 @@ h1{
 }
 
 .empty-div{
-	height: 700px;
-	margin: 0px;
-	top:50px !important;
-	width:100%;
-	text-align: center;
-	position: relative;
+	
+	
+	position: absolute;
+	transform: translateY(-50px);
+	margin-left:5%;
+	margin-right: 5%;
 }
 
 .main{
+	position: absolute;
+	top: 97%;
 	display: flex;
-	
+	width: 90%;
 	margin-left: 5%;
 	margin-right:5%;
 	margin-bottom: 100px;
 	text-align: center;
-	position: relative;
-	top:50px;
+	
 }
 
 h2{
@@ -143,8 +145,10 @@ h2{
 	width: 90%;
 	margin-left: 5%;
 	margin-right: 5%;
-	top: 2250px;
+
 	position:absolute;
+	top:97%;
+	transform: translateY(1500px);
 	height:160px;
 	margin-bottom: 0px;
 	background: black;
@@ -169,7 +173,7 @@ h4{
 	height:155px;
 	margin-left: auto;
 	margin-right: auto;
-	font-size: 12px;
+	font-size: 11px;
 }
 
 .noLink{
