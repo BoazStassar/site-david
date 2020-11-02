@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image: url(../resources/DSC03913.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width:100%;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	margin:0px;
+}
+
+.header{
+	background:#EDEDED;
+	
+	margin-left: 0px;
+	padding-left: 0px;
+	width: 100%;
+	display: flex;
+	float: left;
+	height: 50px;
+	
+}
+
+h1{
+	margin-left:20px;
+	margin-bottom: auto;
+	margin-top: auto;
+}
+
+.navigation{
+	margin-left: 60%;
+	display: flex;
+	float: left;
+}
+
+.nav-links{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.footer{
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	bottom:0px;
+	position:absolute;
+	height:160px;
+	margin-bottom: 0px;
+	background: black;
+	text-align: center;
+	
+}
+
+h4{
+	margin-bottom:0px;
+}
+
+.social-media-footer{
+	top:0px;
+	display: inline-block;
+	text-align: center;
+	overflow: auto;
+	color: white;
+	width: 25%;
+	border-bottom: double white;
+	height:155px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 12px;
+}
+
+.noLink{
+	color:black !important;
+	text-decoration:none !important;
+	font-weight: bold;
+}
+.noLinkWhite{
+	color: white !important;
+	text-decoration: none;
+	font-weight: bold;
+}
