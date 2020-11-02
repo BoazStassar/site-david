@@ -9,7 +9,6 @@ body{
 	width:100%;
 	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
 	margin:0px;
-	height:95%!important;
 }
 
 .header{
@@ -28,6 +27,7 @@ h1{
 	margin-left:20px;
 	margin-bottom: auto;
 	margin-top: auto;
+	font-family: "Arial Black", Gadget, sans-serif
 }
 
 .navigation{
@@ -86,6 +86,7 @@ h4{
 	width: 90%;
 	height: 400px;
 	text-align: center;
+	border:double #4480D2;
 
 }
 
@@ -119,4 +120,21 @@ h4{
 	color: white !important;
 	text-decoration: none;
 	font-weight: bold;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3.5s;
+  animation-name: fade;
+  animation-duration: 3.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: 0}
+  to {opacity: 1}
 }
