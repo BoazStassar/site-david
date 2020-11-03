@@ -10,6 +10,7 @@ body{
 	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
 	margin:0px;
 }
+
 .header{
 	background:#EDEDED;
 	margin-left: 0px;
@@ -18,11 +19,12 @@ body{
 	display: flex;
 	float: left;
 	height: 3vw;
+	margin-bottom: 3vw;
 	
 }
 
 h1{
-	margin-left:20px;
+	margin-left:1vw;
 	margin-bottom: auto;
 	margin-top: auto;
 	font-family: "Arial Black", Gadget, sans-serif;
@@ -49,21 +51,33 @@ h1{
 	width: 90%;
 	margin-left: 5%;
 	margin-right: 5%;
+	
 	bottom:0px;
-	position:absolute;
-	top:100%;
-	transform: translateY(-162px);
-	height:160px;
+	
+	height:15vw;
 	margin-bottom: 0px;
 	background: black;
 	text-align: center;
 	
 }
+h2{
+	font-size: 2vw;
+}
+
+h3{
+	font-size: 1.5vw;
+}
 
 h4{
+	font-size:1vw;
 	margin-bottom:0px;
 }
 
+h5{
+	font-size:1vw;
+	margin-top: 0.5vw;
+	margin-bottom:0.5vw;
+}
 .social-media-footer{
 	top:0px;
 	display: inline-block;
@@ -72,10 +86,10 @@ h4{
 	color: white;
 	width: 25%;
 	border-bottom: double white;
-	height:155px;
+	height:14vw;
 	margin-left: auto;
 	margin-right: auto;
-	font-size: 11px;
+	font-size: 0.9vw;
 }
 
 .noLink{
@@ -85,15 +99,16 @@ h4{
 }
 
 .wrapperDiv{
-	position: absolute;
-	top:50%;
+	
+	
 	margin-left:5%;
 	margin-right: 5%;
 	width: 90%;
-	height: 400px;
+	height: 27.5vw;
+	display: flex;
 	text-align: center;
 	border:double #4480D2;
-	transform: translateY(-250px);
+	margin-bottom:3vw;
 
 }
 
