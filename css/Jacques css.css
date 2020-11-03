@@ -48,6 +48,9 @@ h1{
 	margin-bottom: auto;
 	font-size: 1vw;
 }
+.topText{
+	margin-top:3vw!important;
+}
 
 .empty-div{
 	height:20vw;
