@@ -41,7 +41,7 @@ function showSlides(n) {
 	
 	
   var numberText = document.getElementById("numbertext");
-	var stringN = n.toString();
+	var stringN = slideIndex.toString();
 	var newNumberText = stringN.concat("/19");
 	numberText.innerHTML = newNumberText;
 }
