@@ -16,33 +16,16 @@ function currentSlide(n) {
 
 function showSlides(n) {
   var i;
-	
-  var div = document.getElementById("firstSlide");
+  var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
-  var actualDiv = document.getElementById("actualID");
-	var prefix = "resources/";
-	var postfix = ".jpg";
-  var paths =["DSC03868", "DSC03876", "DSC03886", "DSC03890 (2)", "DSC03890", "DSC03903 (2)", "DSC03903", "DSC03912", "DSC03913", "DSC03927-2", "DSC03971 (2)", "DSC03971", "DSC03986", "DSC03986-2", "DSC04043", "DSC04049", "DSC04051", "DSC04071", "DSC04073-2"];
-	
-	
-	
-  if (n > 19) {slideIndex = 1;}
-  if (n < 1) {slideIndex = 19;}
-	
-	var path = (prefix.concat(paths[slideIndex-1])).concat(postfix);
-      div.src=path;
-  
-	
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
-  actualDiv.style.display = "block";
+  slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
-	
-	
-  var numberText = document.getElementById("numbertext");
-	var stringN = slideIndex.toString();
-	var newNumberText = stringN.concat("/19");
-	numberText.innerHTML = newNumberText;
 }
-
