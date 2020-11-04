@@ -84,66 +84,75 @@ h5{
 	text-align: center;
 	overflow: auto;
 	color: white;
-	width: 25%;
+	width: 30%;
 	border-bottom: double white;
 	height:14vw;
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 0.9vw;
+	background: black;
+	float:left;
 }
 
+.left{
+	margin-left:5%;
+}
+
+.right{
+	margin-right:5%;
+}
 .noLink{
 	color:black !important;
 	text-decoration:none !important;
 	font-weight: bold;
 }
 
-.wrapperDiv{
-	
-	
-	margin-left:5%;
-	margin-right: 5%;
-	width: 90%;
-	height: 27.5vw;
-	display: flex;
-	text-align: center;
-	border:double #4480D2;
-	margin-bottom:3vw;
-
-}
-
-.emptyDiv{
-	position: absolute;
-	height:20%;
-	width: 100%;
-	margin-top:0px;
-	margin-bottom: 0px;
-}
 
 .leftDiv{
+	text-align: center;
 	background: white;
 	float:left;
-	width:49.79%;
-	height:100%;
+	margin-left:5%;
+	width:45%;
+	display: table;
 	overflow: auto;
-
-	
-	
+	box-sizing: border-box;
+	height:27.5vw;
 }
 
 .rightDiv{
+	text-align:center;
 	background: white;
-	height: 100%;
-	float:right;
-	width:50%;
+	display:table;
+	float:left;
+	margin-right:5%;
+	margin-bottom:5vw;
+	width:45%;
 	border-left: double #4480D2;
-	
+	box-sizing: border-box;
+	height:27.5vw;
+}
+
+.centerText{
+	display: table-cell;
+	vertical-align: middle;
 }
 
 .noLinkWhite{
 	color: white !important;
 	text-decoration: none;
 	font-weight: bold;
+}
+
+.middle{
+	margin-right:0px;
+	margin-left:0px;
+}
+
+.icon{
+	margin: 0px;
+	width:4vw;
+	height:4vw;
 }
 
 .fade {
@@ -161,4 +170,61 @@ h5{
 @keyframes fade {
   from {opacity: 0}
   to {opacity: 1}
+}
+
+@media screen and (max-width: 800px){
+	.social-media-footer{
+		margin-right:0px;
+		margin-left:0px;
+		width:100%;
+		height:20vw;
+		font-size: 1.9vw;
+	}
+	.header{
+		margin-bottom:0px;
+	}
+	.leftDiv, .rightDiv{
+		margin-left:0px;
+		margin-right:0px;
+		margin-bottom:0px;
+		width:100%;
+		
+	}
+	
+	.leftDiv{
+		border-bottom: double #4480D2;
+		height:30vw;
+	}
+	
+	.rightDiv{
+		height:55vw;
+	}
+	.middle{
+		height:27vw;
+	}
+	
+	.right{
+		height:15vw;
+	}
+	
+	h2{
+		font-size: 5vw;
+	}
+	
+	.icon{
+		width:5vw;
+		height:5vw;
+	}
+	h3{
+		font-size: 4vw;
+	}
+	
+	h4{
+		font-size:3vw;
+	}
+	
+	h5{
+		font-size:2vw;
+	}
+	
 }
