@@ -177,7 +177,7 @@ h2{
 	height: 40vw;
 	background:#593340;
 	position: relative;
-	
+	color: #c99d78;
 }
 
 .footer{
@@ -235,7 +235,15 @@ h4{
 	text-decoration: none;
 	font-weight: bold;
 }
-
+.centerhorizontally {
+	display: flex;
+	justify-content: center;
+}
+.innersqare{
+ position: absolute;
+ top: 50%;
+  margin-top: -45px;
+}
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 3.5s;
