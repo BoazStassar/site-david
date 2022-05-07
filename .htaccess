@@ -1,3 +1,7 @@
 RewriteEngine on
 
-RewriteRule ^muziekles muziekles.html [NC,L]
+Redirect https://www.jacquesellis.nl/muziekles https://www.jacquesellis.nl/muziekles.html
+
+Redirect www.jacquesellis.nl/muziekles https://www.jacquesellis.nl/muziekles.html
+
+Redirect jacquesellis.nl/muziekles https://www.jacquesellis.nl/muziekles.html
