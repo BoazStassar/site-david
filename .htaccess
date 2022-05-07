@@ -1,7 +1,4 @@
 RewriteEngine on
 
-Redirect https://www.jacquesellis.nl/muziekles https://www.jacquesellis.nl/muziekles.html
 
-Redirect www.jacquesellis.nl/muziekles https://www.jacquesellis.nl/muziekles.html
-
-Redirect jacquesellis.nl/muziekles https://www.jacquesellis.nl/muziekles.html
+ErrorDocument 404 http://www.jacquesellis.nl/muziekles.html
